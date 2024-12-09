@@ -16,7 +16,7 @@ const Button: React.FC<ButtonProps> = ({ variant, ...props }) => {
 	};
 
 	return (
-		<button {...props} style={styles()}>
+		<button {...props} style={styles()} className='custom-btn'>
 			{props.children}
 		</button>
 	);
